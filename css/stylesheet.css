@@ -4,7 +4,7 @@ body {
   color:white;
   margin-right: 2%;}
 
-h1{color:lightgreen;}
+h1{}
 h2{}
 h3{color: lightblue;
   padding: 0;}
@@ -59,6 +59,14 @@ table{color: lightpink;
     margin-right: 10%;
     border:2px dashed #b2114f;}
 
+  #toc > form {
+    text-align: right;
+    margin-right: 10%;}
+
+  #toc > h4 {
+    padding: 0%
+  }
+
 #tit {margin-top: -1%;
   margin-left: -1%;
   width: 101%;
@@ -86,5 +94,4 @@ table{color: lightpink;
 .webtitle {padding: 1%;
   text-align: center;
   border: 4px solid #3d3d3d;
-  color: orange;
-  font-size: 40px;}
+  color: orange;}

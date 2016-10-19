@@ -1,11 +1,10 @@
 body {
-  background-color: #3d3d3d;
+  background-color: #b2114f;
   font-family: arial;
   color:white;
   margin-right: 2%;}
 
-h1{color:lightgreen;
-  background-color: #3d3d3d;}
+h1{color:lightgreen;}
 h2{}
 h3{color: lightblue;
   padding: 0;}
@@ -14,7 +13,7 @@ h5{}
 h6{}
 
 hr{display: block;
-  border:2px dashed lightblue;}
+  border:2px dashed #3d3d3d;}
 
 video{color:white;
   background-color: black;}
@@ -24,12 +23,15 @@ img{align-content: center;}
 a{color: lightblue;}
 a:active{color: #ffc130;
   background-color: lightblue;}
-a:visited{color: #ff42fb;}
-a:hover{color: white;
-  background-color: #7a002e;
+a:visited{color: white;}
+a:hover{color: lightgreen;
+  background-color: black;
   font-weight: bold;}
 
 p{}
+  p:first-letter{font-weight: bold;
+    font-family: cursive;
+    font-size: 45px;}
 
 ul{list-style-image:url(mf.png);
   color: lightgreen;}
@@ -43,24 +45,33 @@ table{color: lightpink;
   tr{}
     td{border: 2px dashed lightblue;}
 
-#toc {height:80%;
-  width: 18%;
+#toc {height:100%;
+  width: 20%;
   position:fixed;
-  border: 4px solid lightblue;
   margin-right: 81%;
-  margin-top: 10%;
+  margin-top: 7%;
+  margin-left: -1%;
   background-color: #3d3d3d;
   text-align: center;}
 
-#tit {width: 99%;
+  #toc > hr {display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    border:2px dashed #b2114f;}
+  #toc > a:visited {color: pink;}
+
+#tit {margin-top: -1%;
+  margin-left: -1%;
+  width: 101%;
   position: fixed;
   background-color: #3d3d3d;}
 
-#main {margin-top: 9%;
+#main {margin-top: 8%;
   margin-left: 20%;
   margin-right: 1%;
   position:absolute;
-  z-index: -1;}
+  z-index: -1;
+  }
 
 #filler {width:100%;
   position: fixed;
@@ -73,7 +84,7 @@ table{color: lightpink;
   margin-left: 20%;
   text-align: left;}
 
-.webtitle {padding: 2%;
+.webtitle {padding: 1%;
   text-align: center;
-  border: 4px solid lightblue;
+  border: 4px solid #3d3d3d;
   color: orange;}

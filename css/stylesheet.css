@@ -25,6 +25,7 @@ a:active{color: #ffc130;
   background-color: lightblue;}
 a:visited{color: white;
   text-shadow: 0 0 10px white;}
+a:hover{text-shadow: 0 0 5px white;
   font-weight: bold;}
 
 p{}

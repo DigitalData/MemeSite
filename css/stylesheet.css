@@ -38,12 +38,12 @@ ul{list-style-image:url(mf.png);
 ol{list-style-type: ;}
   li{}
 
-table{color: lightpink;
-  border: 3px solid white;}
+table{border: 2px solid white;}
   th{text-decoration: underline;
-    border:2px dashed lightblue;}
-  tr{}
-    td{border: 2px dashed lightblue;}
+    color: white;
+    border:2px dashed white;}
+  tr{border: 3px dashed white;}
+    td{border: 2px dashed white;}
 
 #toc {height:100%;
   width: 20%;

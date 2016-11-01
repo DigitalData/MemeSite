@@ -35,7 +35,7 @@
   <form class="" action="index.html" method="post">
     Username: <input type="text" name="uname"><br>
     Password: <input type="password" name="pword"><br>
-    <input type="submit" name="submit" value="Submit!">
+    <input type="submit" name="login" value="Log In">
   </form>
 
 </div>
@@ -106,16 +106,18 @@ How can mirrors be real if they meme.
 <hr>
 <form class="" action="index.html" method="post">
 Select Your Character! <br>
-  <select class="" name="classcharacter">
-    <option value="classchar">Ninja</option>
-    <option value="classchar">Warrior</option>
-    <option value="classchar">Meme</option>
-    <option value="classchar">Magician</option>
+  <select class="classchar" name="classcharacter">
+    <option value="ninja">Ninja</option>
+    <option value="warrior">Warrior</option>
+    <option value="meme">Meme</option>
+    <option value="magic">Magician</option>
   </select><br>
   What do you think about life? <br>
   <textarea name="Lifethoughts" rows="8" cols="40"></textarea><br>
     Submit a file!
 <input type="file" name="file" value="">
+<br>
+<input type="submit" name="submit" value="Submit!" onclick="justaname()">
 </form>
 <hr>
 
@@ -152,10 +154,17 @@ dat Meme is a special meme that consists of the two words "dat" and "Meme" combi
 <br>
 <script type="text/javascript">
 <!--
-var meme = "This is a string of letters lmao this is violation!vb,";
-document.write(meme)
-  document.write("Hey Now meme lord");
-  //-->
+var meme = "This is a string of letters lmao this is violation!";
+var bool = true;
+var check = 1;
+document.write(meme + "<br />");
+while (check <= 10) {
+  document.write(check);
+  check ++;
+}
+
+document.write("Hey Now meme lord");
+-->
 </script>
 
 </div>

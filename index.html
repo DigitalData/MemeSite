@@ -107,9 +107,9 @@ How can mirrors be real if they meme.
 <form class="" action="index.html" method="post">
 Select Your Character! <br>
   <select class="classchar" name="classcharacter">
-    <option value="ninja">Ninja</option>
-    <option value="warrior">Warrior</option>
-    <option value="meme">Meme</option>
+    <option value="ninja" name="Ninja">Ninja</option>
+    <option value="warrior" name="Warrior">Warrior</option>
+    <option value="meme" contenteditable="">Meme</option>
     <option value="magic">Magician</option>
   </select><br>
   What do you think about life? <br>
@@ -117,7 +117,7 @@ Select Your Character! <br>
     Submit a file!
 <input type="file" name="file" value="">
 <br>
-<input type="submit" name="submit" value="Submit!" onclick="justaname()">
+<input type="submit" name="submit" value="Submit!" onclick="justaname(classcharacter)">
 </form>
 <hr>
 
@@ -161,6 +161,12 @@ document.write(meme + "<br />");
 while (check <= 10) {
   document.write(check);
   check ++;
+}
+
+function justaname(classcharacter){
+  alert("Hey! You are a \n");
+alert(classcharacter);
+
 }
 
 document.write("Hey Now meme lord");
